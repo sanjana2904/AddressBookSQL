@@ -13,3 +13,6 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+
+--U7
+SELECT COUNT('state') FROM AddressBookTable;
