@@ -13,3 +13,6 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+
+--UC5
+DELETE FROM AddressBookTable WHERE firstName = 'saranya';
