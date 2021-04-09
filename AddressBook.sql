@@ -36,3 +36,5 @@ DELETE FROM AddressBookTable WHERE firstName = 'saranya';
 SELECT * FROM AddressBookTable where city = 'Chennai';
 --U7
 SELECT COUNT('state') FROM AddressBookTable;
+--UC8
+SELECT * FROM AddressBookTable ORDER BY firstName ASC; 
