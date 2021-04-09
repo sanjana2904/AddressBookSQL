@@ -13,3 +13,6 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+
+--UC3
+exec sp_columns AddressBookTable;
