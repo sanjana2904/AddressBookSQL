@@ -13,3 +13,6 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+
+--UC8
+SELECT * FROM AddressBookTable ORDER BY firstName ASC; 
