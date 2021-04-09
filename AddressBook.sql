@@ -31,3 +31,6 @@ SET lastName = 'S'
 WHERE firstName = 'saranya';
 --UC5
 DELETE FROM AddressBookTable WHERE firstName = 'saranya';
+
+--UC6
+SELECT * FROM AddressBookTable where city = 'Chennai';
