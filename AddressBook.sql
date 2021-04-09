@@ -13,3 +13,7 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+--UC4
+UPDATE AddressBookTable
+SET lastName = 'S'
+WHERE firstName = 'saranya';
