@@ -34,3 +34,5 @@ DELETE FROM AddressBookTable WHERE firstName = 'saranya';
 
 --UC6
 SELECT * FROM AddressBookTable where city = 'Chennai';
+--U7
+SELECT COUNT('state') FROM AddressBookTable;
