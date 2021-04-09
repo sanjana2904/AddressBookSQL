@@ -14,5 +14,23 @@ phoneNumber varchar(255),
 email varchar(255)
 );
 
+--UC3
+--Insert INTO 
+
+INSERT INTO AddressBookTable(firstName, lastName, address, city, state, zip, phoneNumber, email)
+VALUES ('sanjana','K', 'Chennai Highways', 'Chennai', 'TamilNadu', 635001, 9988776655, 'aaa123@gmail.com');
+INSERT INTO AddressBookTable(firstName, lastName, address, city, state, zip, phoneNumber, email)
+VALUES ('saranya','K', 'Bangalore Highways', 'Bangalore', 'karnataka', 635002, 9911223344, 'bbb123@gmail.com');
+INSERT INTO AddressBookTable(firstName, lastName, address, city, state, zip, phoneNumber, email)
+VALUES ('karthick','K', 'AshokNagar', 'Hosur', 'TamilNadu', 635003, 7777771234, 'ccc123@gmail.com');
+
+SELECT * FROM AddressBookTable;
+--UC4
+UPDATE AddressBookTable
+SET lastName = 'S'
+WHERE firstName = 'saranya';
+--UC5
+DELETE FROM AddressBookTable WHERE firstName = 'saranya';
+
 --UC6
 SELECT * FROM AddressBookTable where city = 'Chennai';
