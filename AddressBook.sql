@@ -13,3 +13,6 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+
+--UC6
+SELECT * FROM AddressBookTable where city = 'Chennai';
