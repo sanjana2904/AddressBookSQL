@@ -13,6 +13,7 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
+
 --UC3
 --Insert INTO 
 
@@ -28,3 +29,5 @@ SELECT * FROM AddressBookTable;
 UPDATE AddressBookTable
 SET lastName = 'S'
 WHERE firstName = 'saranya';
+--UC5
+DELETE FROM AddressBookTable WHERE firstName = 'saranya';
