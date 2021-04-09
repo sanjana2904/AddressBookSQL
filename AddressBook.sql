@@ -13,7 +13,6 @@ zip int,
 phoneNumber varchar(255),
 email varchar(255)
 );
-
 --UC3
 --Insert INTO 
 
@@ -25,3 +24,7 @@ INSERT INTO AddressBookTable(firstName, lastName, address, city, state, zip, pho
 VALUES ('karthick','K', 'AshokNagar', 'Hosur', 'TamilNadu', 635003, 7777771234, 'ccc123@gmail.com');
 
 SELECT * FROM AddressBookTable;
+--UC4
+UPDATE AddressBookTable
+SET lastName = 'S'
+WHERE firstName = 'saranya';
