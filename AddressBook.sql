@@ -38,3 +38,15 @@ SELECT * FROM AddressBookTable where city = 'Chennai';
 SELECT COUNT('state') FROM AddressBookTable;
 --UC8
 SELECT * FROM AddressBookTable ORDER BY firstName ASC; 
+
+--UC9
+ALTER TABLE AddressbookTable ADD AddressBookName varchar(255), AddressBookType varchar(255);
+SELECT * FROM AddressBookTable;
+
+
+
+UPDATE AddressBookTable SET AddressBookType = 'family', AddressBookName='Book1' WHERE firstName='sanjana';
+UPDATE AddressBookTable SET AddressBookType = 'friends', AddressBookName='Book2' WHERE firstName='karthick';
+
+SELECT * FROM AddressBookTable where AddressBookType = 'family';
+SELECT * FROM AddressBookTable where AddressBookName = 'Book2';
