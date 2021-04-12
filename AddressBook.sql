@@ -50,3 +50,8 @@ UPDATE AddressBookTable SET AddressBookType = 'friends', AddressBookName='Book2'
 
 SELECT * FROM AddressBookTable where AddressBookType = 'family';
 SELECT * FROM AddressBookTable where AddressBookName = 'Book2';
+
+--UC10
+SELECT COUNT(firstName) as ContactPerson,AddressBookType  FROM AddressBookTable GROUP BY AddressBookType;
+
+SELECT * FROM AddressBookTable;
